@@ -3,28 +3,6 @@
 # Overview
 The Serverless Telemedicine Platform project aims to build a scalable and secure telemedicine platform on AWS using serverless technologies. It provides a backend API for telemedicine functionalities and a frontend web application for users to interact with.
 
-aws-serverless-telemedicine/
-├── src/
-│   ├── backend/
-│   │   ├── lambda/
-│   │   │   └── telemedicine_function.py   # Lambda function for telemedicine functionalities
-│   │   ├── api_gateway/
-│   │   │   └── api_spec.yaml              # API Gateway specification for the backend API
-│   ├── frontend/
-│   │   ├── web/
-│   │   │   ├── index.html                 # HTML file for the frontend web application
-│   │   │   ├── styles.css                 # CSS file for styling the frontend
-│   │   │   └── app.js                     # JavaScript file for frontend logic
-│   ├── infrastructure/
-│   │   ├── cloudformation/
-│   │   │   ├── lambda.yaml                # CloudFormation template for deploying Lambda function
-│   │   │   ├── api_gateway.yaml           # CloudFormation template for deploying API Gateway
-│   │   │   ├── cognito.yaml               # CloudFormation template for setting up Cognito user pool
-│   │   │   └── dynamodb.yaml              # CloudFormation template for provisioning DynamoDB tables
-│   └── scripts/
-│       └── deploy.sh                      # Deployment script for deploying AWS resources
-└── README.md                              # Detailed documentation for the project
-
 # Components
 # Backend
 - Lambda Function: Handles telemedicine functionalities like appointment scheduling, video consultations, etc.
